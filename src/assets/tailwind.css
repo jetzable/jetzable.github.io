@@ -1,5 +1,16 @@
 @tailwind base;
 
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+  }
+  @font-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    src: url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+  }
+
 @tailwind components;
 
 @tailwind utilities;
