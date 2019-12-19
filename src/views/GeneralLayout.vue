@@ -1,30 +1,25 @@
 <template>
-  <div class="h-screen bg-yellow">
-    <vue-particles
-      color="#dedede"
-      :particleOpacity="0.8"
-      :particlesNumber="150"
-      shapeType="circle"
-      :particleSize="4"
-      linesColor="#dedede"
-      :linesWidth="2"
-      :lineLinked="true"
-      :lineOpacity="0.3"
-      :linesDistance="130"
-      :moveSpeed="3"
-      :hoverEffect="true"
-      hoverMode="grab"
-      :clickEffect="true"
-      clickMode="push"
-      class="h-screen"
-    >
-    <slot />
-    </vue-particles>
+  <div class="bg-white backPhoto">
+    <div><slot /></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'GeneralLayout'
+  name: 'GeneralLayout',
 }
 </script>
+<style scoped>
+.backPhoto {
+  background: url('../assets/images/profilePicture.svg');
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-attachment: local;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+</style>

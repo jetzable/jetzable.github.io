@@ -2,13 +2,25 @@
 
 @font-face {
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
     src: url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
   }
   @font-face {
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     font-weight: 500;
     src: url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-lg;
   }
 
 @tailwind components;
