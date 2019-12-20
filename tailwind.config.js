@@ -20,7 +20,7 @@ module.exports = {
       transparent: 'transparent',
 
       black: '#000',
-      white: '#FDFBFD',
+      white: '#C5C5C5',
 
       gray: {
         default: '#D6D2D2',
@@ -35,7 +35,7 @@ module.exports = {
         900: '#1a202c',
       },
       red: {
-        100: '#fff5f5',
+        100: '#DB3A34',
         200: '#fed7d7',
         300: '#feb2b2',
         400: '#fc8181',
@@ -93,14 +93,14 @@ module.exports = {
       },
       blue: {
         default: '#2176FF',
-        100: '#ebf8ff',
+        100: '#48E5C2',
         200: '#bee3f8',
         300: '#134074',
         400: '#63b3ed',
         500: '#4299e1',
         600: '#3182ce',
         700: '#13315C',
-        800: '#2c5282',
+        800: '#05204A',
         900: '#2a4365',
       },
       indigo: {
@@ -116,7 +116,7 @@ module.exports = {
       },
       purple: {
         100: '#faf5ff',
-        200: '#e9d8fd',
+        200: '#802392',
         300: '#d6bcfa',
         400: '#b794f4',
         500: '#9f7aea',
@@ -127,7 +127,7 @@ module.exports = {
       },
       pink: {
         default: '#E83F6F',
-        100: '#fff5f7',
+        100: '#E75A7C',
         200: '#fed7e2',
         300: '#B8336A',
         400: '#f687b3',
@@ -314,6 +314,7 @@ module.exports = {
     minWidth: {
       '0': '0',
       '22': '5.5rem',
+      '32': '8rem',
       full: '100%',
     },
     objectPosition: {
@@ -406,7 +407,7 @@ module.exports = {
     alignSelf: ['responsive'],
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColor: ['responsive', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
     backgroundSize: ['responsive'],
