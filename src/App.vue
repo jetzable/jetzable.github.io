@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <vue-page-transition id="#app" name="flip-y">
     <router-view/>
-  </div>
+  </vue-page-transition>
 </template>
 
 <style>

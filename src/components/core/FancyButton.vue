@@ -9,13 +9,13 @@
     :class="{'border border-green-900': outline}"
     :type="submit ? 'submit' : 'button'"
     >
-    <div class="flex items-center justify-center">
-      <span>{{ label }}</span>
+    <div class="flex items-center" :class="{'justify-start': icon}">
       <FancyIcon
         :icon="icon"
-        style="margin-bottom:1px"
+        style="margin-bottom:1px;font-weight:bold;"
         class="mx-1"
         />
+      <span>{{ label }}</span>
     </div>
   </component>
 </template>

@@ -18,7 +18,7 @@
       </p>
     </div>
     <div class="flex flex-col items-center justify-around">
-      <FancyButton label="More" class="mb-4"/>
+      <FancyButton label="About Me" class="mb-4"/>
       <FancyIcon icon="more_vert" class="text-green-300" style="font-size:4rem;"/>
     </div>
   </div>
