@@ -3,11 +3,11 @@ import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 import './assets/tailwind.css'
-import VueParticles from 'vue-particles'
+import InfiniteSlideBar from 'vue-infinite-slide-bar'
 
 Vue.config.productionTip = false
 
-Vue.use(VueParticles)
+Vue.component('infinite-slide-bar', InfiniteSlideBar)
 
 new Vue({
   router,
