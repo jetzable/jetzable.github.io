@@ -1,9 +1,13 @@
 <template>
-  <vue-page-transition id="#app" name="flip-y">
-    <router-view/>
-  </vue-page-transition>
+  <vue-page-transition name="flip-y">
+  <router-view />
+</vue-page-transition>
 </template>
-
+<script>
+export default {
+  name: 'App'
+}
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
 

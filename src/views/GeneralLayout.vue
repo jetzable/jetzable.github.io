@@ -1,11 +1,11 @@
 <template>
   <div class="bg-white">
-    <div><slot /></div>
+    <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'GeneralLayout',
+  name: 'GeneralLayout'
 }
 </script>

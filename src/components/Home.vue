@@ -18,7 +18,11 @@
       </p>
     </div>
     <div class="flex flex-col items-center justify-around">
-      <FancyButton label="About Me" class="mb-4"/>
+      <FancyButton
+        label="About Me"
+        class="mb-4"
+        @click="$router.push({name: 'aboutme'})"
+        />
       <FancyIcon icon="more_vert" class="text-green-300" style="font-size:4rem;"/>
     </div>
   </div>

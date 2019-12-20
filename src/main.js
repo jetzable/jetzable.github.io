@@ -4,9 +4,11 @@ import router from './router'
 import './registerServiceWorker'
 import './assets/tailwind.css'
 import InfiniteSlideBar from 'vue-infinite-slide-bar'
+import VuePageTransition from 'vue-page-transition'
 
 Vue.config.productionTip = false
 
+Vue.use(VuePageTransition)
 Vue.component('infinite-slide-bar', InfiniteSlideBar)
 
 new Vue({
